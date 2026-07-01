@@ -6,7 +6,7 @@ la forma en que se llama
 */
 
 export class BasePage {
-    page:Page //this hace referencia al atributo de la clase
+    protected page:Page //this hace referencia al atributo de la clase
 
     constructor(page:Page) //el page por parametro hace referencia al valor qe le pasamos al momento de instanciar el objecto
     {
@@ -22,8 +22,12 @@ export class BasePage {
     }
 
 
-    async validarTextoVisible(texto:string) {
+    async validarTextoExactoVisible(texto:string) {
         await expect(this.page.getByText(texto)).toBeVisible()
+    }
+    
+    async validarElementoVisible(locator:Locator) {
+        await expect(locator).toBeVisible()
     }
 
  
