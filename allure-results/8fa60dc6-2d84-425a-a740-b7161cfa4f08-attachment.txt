@@ -1,0 +1,4 @@
+[INFO] Tipo de cuenta buscada: "Cuenta Corriente"
+[INFO] Valor (ID) de cuenta obtenido del DOM: "ACC001"
+[INFO] Últimos 4 dígitos extraídos: "1234"
+[INFO] Validando tarjeta generada con texto: "ACTIVA - VINCULADA A **** **** **** 1234"

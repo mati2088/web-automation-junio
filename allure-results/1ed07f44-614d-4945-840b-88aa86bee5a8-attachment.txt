@@ -1,0 +1,4 @@
+[INFO] Tipo de cuenta buscada: "Caja de Ahorro"
+[INFO] Valor (ID) de cuenta obtenido del DOM: "ACC002"
+[INFO] Últimos 4 dígitos extraídos: "5678"
+[INFO] Validando tarjeta generada con texto: "ACTIVA - VINCULADA A **** **** **** 5678"
